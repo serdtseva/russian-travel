@@ -1,0 +1,9 @@
+.intro__text {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 163%;
+  font-weight: 400;
+  min-height: 208px;
+  padding-top: 40px;
+}

@@ -1,0 +1,13 @@
+.to-baikal__description {
+  color: white;
+  max-width: 360px;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media all and (max-width: 320px) {
+  .to-baikal__description {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

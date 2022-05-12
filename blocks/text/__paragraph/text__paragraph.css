@@ -1,0 +1,15 @@
+.text__paragraph {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 26px;
+}
+
+.text__paragraph:last-of-type {
+  padding-bottom: 0;
+}
+
+@media all and (max-width: 768px) {
+  .text__paragraph {
+    padding-bottom: 25px;
+  }
+}

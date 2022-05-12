@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  max-width: 1084px;
+  justify-content: space-between;
+  color: white;
+  padding-bottom: 24px;
+}
+
+@media all and (max-width: 1024px) {
+  .footer {
+    width: 100%;
+    padding-left: 48px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .footer {
+    width: 100%;
+    padding-left: 24px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+    padding-left: 16px;
+    width: 100%;
+  }
+}
