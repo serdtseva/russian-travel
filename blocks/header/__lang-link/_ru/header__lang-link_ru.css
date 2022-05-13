@@ -4,3 +4,7 @@
   text-decoration: underline;
   margin-right: 18px;
 }
+
+.header__lang-link_ru:hover {
+  opacity: 0.8;
+}

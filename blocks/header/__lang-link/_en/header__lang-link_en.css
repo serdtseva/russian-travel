@@ -2,3 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
+.header__lang-link_en:hover {
+  opacity: 0.8;
+}
