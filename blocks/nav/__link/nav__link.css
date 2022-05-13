@@ -10,12 +10,12 @@
   margin-right: 0;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 500px) {
   .nav__link {
-    padding-bottom: 32px;
+    margin-bottom: 32px;
   }
 
   .nav__link:last-of-type {
-    padding-bottom: 48px;
+    margin-bottom: 48px;
   }
 }

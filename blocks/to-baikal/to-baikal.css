@@ -30,7 +30,6 @@
 
 @media all and (max-width: 1024px) {
   .to-baikal {
-    max-width: 1024px;
     max-height: 640px;
   }
 }
