@@ -1,9 +1,8 @@
 .intro {
+  margin: 0;
   padding-top: 92px;
   padding-left: 148px;
   padding-right: 442px;
-  max-width: 690px;
-  min-height: 429px;
   color: #ffffff;
 }
 

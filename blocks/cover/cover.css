@@ -1,8 +1,9 @@
-.to-baikal {
+.cover {
   background-image: url("../../images/cover-trains.jpg");
+  background-position: center;
   background-size: cover;
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +14,7 @@
   text-decoration: none;
 }
 
-.to-baikal::before {
+.cover::before {
   content: "";
   z-index: -1;
   position: absolute;
@@ -21,29 +22,30 @@
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(16, 17, 18, 0.3);
 }
 
-.to-baikal:hover:before {
-  background-color: rgba(0, 0, 0, 0.8);
+.cover:hover:before {
+  background-color: rgba(16, 17, 18, 0.8);
 }
 
 @media all and (max-width: 1024px) {
-  .to-baikal {
-    max-height: 640px;
+  .cover {
+    min-height: 640px;
+    max-width: 1024px;
   }
 }
 
 @media all and (max-width: 768px) {
-  .to-baikal {
+  .cover {
     max-width: 768px;
-    max-height: 480px;
+    min-height: 480px;
   }
 }
 
 @media all and (max-width: 320px) {
-  .to-baikal {
+  .cover {
     width: 320px;
-    height: 200px;
+    min-height: 200px;
   }
 }

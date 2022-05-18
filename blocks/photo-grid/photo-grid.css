@@ -4,8 +4,8 @@
   gap: 16px;
   padding-left: 48px;
   padding-right: 48px;
+  padding-bottom: 12px;
   max-width: 1184px;
-  min-width: 320px;
 }
 
 @media all and (max-width: 1024px) {
@@ -17,18 +17,19 @@
 
 @media all and (max-width: 768px) {
   .photo-grid {
-    padding-left: 24px;
-    padding-right: 24px;
     gap: 16px;
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
 @media all and (max-width: 320px) {
   .photo-grid {
+    padding-bottom: 14px;
+    gap: 12px;
+    grid-template-columns: 288px;
     padding-left: 16px;
     padding-right: 16px;
-    gap: 12px;
-    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
   }
 }

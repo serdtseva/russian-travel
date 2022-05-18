@@ -1,13 +1,25 @@
 .header {
-  max-width: 1184px;
-  min-width: 288px;
-  min-height: 52px;
+  padding-left: 48px;
+  padding-right: 30px;
+  max-width: 1202px;
   display: flex;
   justify-content: space-between;
 }
 
+/* 
+  по неизвестной мне причине для ссылок не работает правило с псевдоэлементом :last-of-type, 
+  поэтому в хедере я выставила паддинги справа с учетом уже существующего правого отсупа ссылок
+*/
+
+@media all and (max-width: 768px) {
+  .header {
+    padding-left: 24px;
+    padding-right: 6px;
+  }
+}
+
 @media all and (max-width: 320px) {
   .header {
-    min-height: 42px;
+    padding-left: 16px;
   }
 }

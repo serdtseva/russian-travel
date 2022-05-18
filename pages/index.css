@@ -4,11 +4,15 @@
 @import url(../blocks/page/__main/page__main.css);
 @import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/page/__footer/page__footer.css);
+
 @import url(../blocks/header/header.css);
+
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_en/header__lang-link_en.css);
-@import url(../blocks/header/__lang-link/_ru/header__lang-link_ru.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+@import url(../blocks/header/__lang-area/header__lang-area.css);
+
+
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/lead/__image/lead__image.css);
@@ -21,27 +25,29 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__img/photo-grid__img.css);
 
-@import url(../blocks/title/title.css);
 @import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__img/place__img.css);
 
-@import url(../blocks/url/__link/url__link.css);
-@import url(../blocks/url/__title/url__title.css);
-@import url(../blocks/url/url.css);
+@import url(../blocks/place/__url-link/place__url-link.css);
+@import url(../blocks/place/__url-title/place__url-title.css);
+@import url(../blocks/place/__url-area/place__url-area.css);
 
-@import url(../blocks/text/text.css);
-@import url(../blocks/text/__paragraph/text__paragraph.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__text/place__text.css);
 
 @import url(../blocks/places/__place/places__place.css);
 
-@import url(../blocks/to-baikal/to-baikal.css);
-@import url(../blocks/to-baikal/__description/to-baikal__description.css);
-@import url(../blocks/to-baikal/__title/to-baikal__title.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__description/cover__description.css);
+@import url(../blocks/cover/__title/cover__title.css);
 
-@import url(../blocks/main/__to-baikal/main__to-baikal.css);
+@import url(../blocks/main/__cover/main__cover.css);
+@import url(../blocks/main/__photo-grid/main__photo-grid.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
 
-@import url(../blocks/nav/nav.css);
-@import url(../blocks/nav/__link/nav__link.css);
+
+@import url(../blocks/footer/__link/footer__link.css);

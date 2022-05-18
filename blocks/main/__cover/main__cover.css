@@ -1,4 +1,4 @@
-.main__to-baikal {
+.main__cover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 92px;
@@ -6,7 +6,7 @@
 }
 
 @media all and (max-width: 768px) {
-  .main__to-baikal {
+  .main__cover {
     margin-top: 90px;
     margin-bottom: 88px;
     margin-left: 0;
@@ -15,7 +15,7 @@
 }
 
 @media all and (max-width: 320px) {
-  .main__to-baikal {
+  .main__cover {
     margin-top: 66px;
     margin-bottom: 64px;
   }

@@ -1,4 +1,4 @@
-.url__link {
+.place__url-link {
   color: #ffffff;
   font-size: 18px;
   text-decoration-line: underline;
@@ -7,6 +7,6 @@
   padding-top: 12px;
 }
 
-.url__link:hover {
+.place__url-link:hover {
   opacity: 0.8;
 }

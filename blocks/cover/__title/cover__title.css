@@ -1,13 +1,17 @@
-.to-baikal__title {
+.cover__title {
+  padding: 0;
+  margin: 0;
   max-width: 560px;
   text-align: center;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+  z-index: 1;
+  color: white;
 }
 
 @media all and (max-width: 320px) {
-  .to-baikal__title {
+  .cover__title {
     font-size: 32px;
     line-height: 35px;
   }
