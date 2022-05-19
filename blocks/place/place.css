@@ -22,22 +22,21 @@
     row-gap: 45px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-top: 73p
+    padding-top: 73px;
   }
 }
 
 @media all and (max-width: 700px) {
   .place {
     row-gap: 32px;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));;
     padding-left: 16px;
   }
 }
 
-
 @media all and (max-width: 320px) {
-  .place {
-      padding: 0;
-      padding-top: 50px;
+  .place {    
+    padding: 0;
+    padding-top: 50px;
   }
 }

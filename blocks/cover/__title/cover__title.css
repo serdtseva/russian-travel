@@ -10,6 +10,13 @@
   color: white;
 }
 
+@media all and (max-width: 650px) {
+  .cover__title {
+    font-size: 36px;
+    line-height: 109%;
+  }
+}
+
 @media all and (max-width: 320px) {
   .cover__title {
     font-size: 32px;

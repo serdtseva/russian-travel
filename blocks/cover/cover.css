@@ -22,11 +22,12 @@
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgba(16, 17, 18, 0.3);
+  background-color: #2a2c2f;
+  opacity: 0.3;
 }
 
 .cover:hover:before {
-  background-color: rgba(16, 17, 18, 0.8);
+  opacity: 0.8;
 }
 
 @media all and (max-width: 1024px) {

@@ -24,12 +24,19 @@
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 400px) {
   .photo-grid {
-    padding-bottom: 14px;
-    gap: 12px;
-    grid-template-columns: 288px;
     padding-left: 16px;
     padding-right: 16px;
+    padding-bottom: 14px;
+    gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
   }
 }
+
+/*
+@media all and (max-width: 320px) {
+  .photo-grid {
+  }
+}
+*/

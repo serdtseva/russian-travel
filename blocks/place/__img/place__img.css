@@ -2,6 +2,7 @@
   max-width: 460px;
   max-height: 460px;
   object-fit: cover;
+  width: 100%;
 }
 
 @media all and (max-width: 1024px) {
